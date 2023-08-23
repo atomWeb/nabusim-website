@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="36"
+   viewBox="0 0 22 18"
+   width="44"
+   fill="#000000"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.136364"
+     inkscape:cx="22"
+     inkscape:cy="18.004484"
+     inkscape:window-width="1408"
+     inkscape:window-height="1212"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
+  <defs
+     id="defs2" />
+  <g
+     id="g1"
+     transform="translate(-1,-3)">
+    <path
+       id="path2"
+       style="display:inline"
+       d="M 3,3 C 1.9000011,3 1,3.9000014 1,5 v 12 c 0,1.099999 0.9000011,2 2,2 h 5 v 2 h 8 v -2 h 5 c 1.099999,0 1.990234,-0.900001 1.990234,-2 L 23,5 C 23,3.9000014 22.099999,3 21,3 Z M 3,4.8769531 H 21 V 16.876953 H 3 Z" />
+    <path
+       d="M 7.6994887,9.8096714 10.658154,11.032338 10.443488,11.676337 6.8408223,10.145671 V 9.4830048 L 10.443488,7.9523387 10.658154,8.5963385 Z M 12.487469,13.72967 h -0.793333 l 2.603999,-8.0639972 h 0.774667 z m 3.686648,-5.1333315 0.214667,-0.6439998 3.602665,1.5306661 v 0.6626662 l -3.602665,1.530666 -0.214667,-0.643999 2.958666,-1.2226666 z"
+       id="text7"
+       style="font-size:9.33333px;font-family:'UbuntuMono Nerd Font';-inkscape-font-specification:'UbuntuMono Nerd Font, Normal';letter-spacing:0px;fill:none;stroke:#000000;stroke-width:1.289;stroke-linecap:round;stroke-miterlimit:2;fill-opacity:1;stroke-opacity:1;stroke-dasharray:none;stroke-linejoin:round"
+       transform="scale(0.89444534,1.1180113)"
+       aria-label="&lt;/&gt;" />
+  </g>
+</svg>

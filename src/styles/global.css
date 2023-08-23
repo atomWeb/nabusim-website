@@ -1,0 +1,92 @@
+@import '/assets/fonts/IntelOneMono/IntelOneMono.css';
+
+:root {
+  /* Colors */
+  --gray-0: #090b11;
+  --gray-50: #141925;
+  --gray-100: #283044;
+  --gray-200: #3d4663;
+  --gray-300: #505d84;
+  --gray-400: #6474a2;
+  --gray-500: #8490b5;
+  --gray-600: #a3acc8;
+  --gray-700: #c3cadb;
+  --gray-800: #e3e6ee;
+  --gray-900: #f3f4f7;
+  --gray-999-basis: 0, 0%, 100%;
+  --gray-999_40: hsla(var(--gray-999-basis), 0.4);
+  --gray-999: #ffffff;
+  --orange-shade1: #e67e22; /*  #cf711f8  */
+  --hero-btn: #e67e22;
+  --hero-btn-hover: #cf711f;
+  --hero-title-accent: #ad5c44;
+  --hero-title-shadow: #fbf1ee;
+
+  /*
+#d87355 Ladrillo
+- Tints: C2684D	AD5C44	97513B	824533	6C3A2B	562E22	412219	2B1711 160B08
+- Shades: DC8166	E08F77	E49D88	E8AB99	ECB9AA	EFC7BB	F3D5CC	F7E3DD	FBF1EE
+#eebc73 Mostaza
+- Tints: D6A968	BE965C	A78451	8F7145	775E3A	5F4B2E	473822	302617	18130B
+- Shades: F0C381	F1C98F	F3D09D	F5D7AB	F7DEB9	F8E4C7	FAEBD5	FCF2E3	FDF8F1
+#e7d0be Rosa palo
+- Tints: D0BBAB	B9A698	A29285	8B7D72	74685F	5C534C	453E39	2E2A26	171513
+- Shades: E9D5C5	ECD9CB	EEDED2	F1E3D8	F3E8DF	F5ECE5	F8F1EC	FAF6F2	FDFAF9
+#8b865c Verde
+- Tints: 7D7953	6F6B4A	615E40	535037	46432E	383625	2A281C	1C1B12	0E0D09
+- Shades: 97926C	A29E7D	AEAA8D	B9B69D	C5C3AE	D1CFBE	DCDBCE	E8E7DE	F3F3EF
+*/
+
+  /* colors 
+- Palette: #1D5D9B, #75C2F6, #F4D160, #FBEEAC
+- Primary: #1D5D9B
+- Tints: #1A548C	#174A7C	#14416D	#11385D	#0F2F4E
+- Shades: #346DA5	#4A7DAF	#618EB9	#779EC3	#8EAECD	#A5BED7	#BBCEE1	#D2DFEB	#E8EFF5
+
+#75C2F6
+#F4D160
+- Tints:
+- Shades:
+#FBEEAC
+*/
+
+  /* Text Sizes */
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.625rem;
+  --text-2xl: 2.125rem;
+  --text-3xl: 2.625rem;
+  --text-4xl: 3.5rem;
+  --text-5xl: 4.5rem;
+
+  /* Fonts */
+  --font-system: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-body: 'Public Sans', var(--font-system);
+  --font-code: 'Intel One Mono';
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--gray-999);
+  color: #0f2f4e;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}

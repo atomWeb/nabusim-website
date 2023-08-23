@@ -1,0 +1,34 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer>
+  <p>&copy; {currentYear} <span>Cristian Perez Guerra</span></p>
+  <p>
+    Hero Imagen de vectorjuice en
+    <a href="https://www.freepik.es/" target="_blank">Freepik</a>
+  </p>
+</footer>
+<style>
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: var(--text-base);
+    background-color: var(--gray-900);
+  }
+  footer span {
+    font-weight: bold;
+  }
+  footer a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: var(--orange-shade1);
+  }
+</style>

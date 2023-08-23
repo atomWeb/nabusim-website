@@ -1,0 +1,39 @@
+---
+import NavMenu from './NavMenu.astro';
+import menuItems from '../repositories/menuItems';
+---
+
+<header class="header">
+  <a href="#">
+    <img class="logo" alt="Nabusim logo" src="/assets/logo.svg" />
+  </a>
+  <nav class="navbar">
+    <ul class="navbar-list">
+      {
+        menuItems.map(({ icon, title, url }) => (
+          <NavMenu icon={icon} title={title} url={url} />
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+<style>
+  .header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 1.5rem;
+    background-color: var(--hero-title-shadow);
+  }
+  .logo {
+    width: 100%;
+    vertical-align: middle;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+</style>

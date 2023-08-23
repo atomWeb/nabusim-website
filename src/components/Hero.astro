@@ -1,0 +1,67 @@
+<section class="section-hero">
+  <div class="hero">
+    <div class="hero-img">
+      <img src="../../assets/20892166_Sandy_Tech-28_Single-06.jpg" alt="" />
+    </div>
+    <div class="hero-title">
+      <p>
+        Hola! mi nombre es <span>Cristian Jose Pérez</span> y me dedico al desarrollo
+        web, en Madrid y alrededores.
+      </p>
+      <button>Descargar CV</button>
+    </div>
+  </div>
+</section>
+<script>
+  const btn = document.querySelector('button')!;
+  btn.addEventListener('click', () => {
+    alert('Descargar CV');
+  });
+</script>
+<style>
+  .section-hero {
+    padding: 0 2rem 2rem 3rem;
+  }
+  .hero-img img {
+    max-width: 100%; /* 100% de donde esta contenida */
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .hero-title {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 1.8rem;
+  }
+  .hero-title span {
+    font-family: var(--font-code);
+    font-weight: bold;
+    color: var(--hero-title-accent);
+    background-color: var(--hero-title-shadow);
+    border-radius: 0.8rem;
+    margin: 0px auto 0px auto;
+    padding: 0.1em;
+  }
+  .hero-title button {
+    background-color: var(--hero-btn);
+    color: var(--gray-999);
+    font-size: var(--text-base);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: calc(0.675rem - 1px) calc(1.2rem - 1px);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .hero-title button:hover {
+    background-color: var(--hero-btn-hover);
+  }
+  @media screen and (min-width: 800px) {
+    .hero {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+  }
+</style>
